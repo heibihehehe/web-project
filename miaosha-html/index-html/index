@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+	<title>秒杀特卖</title>
+	<link rel="stylesheet" type="text/css" href="../FILE/css/miaosha.css">
+</head>
+<body>
+   <div class="brand_list">
+	 <ul>
+	  <li>
+		<div class="brand-status">
+			<a href="/brand/dlist/uid/26856357.htm" class="link-box" target="_blank" data-value="brand#1_1">
+				<div class="brand-pic">
+					<img src="http://gju1.alicdn.com/tps/i2/1663606093820436147/TB22y13bJUnyKJjSZFpXXb9qFXa_!!6000000006636-0-jupush.jpg_468x468Q90.jpg">
+					<div class="brand_time" data-etime="1501343999" style="display: block;">
+						<p class="endtime" data-time="1501343999" data-id="b1" id="end_date_b1">
+							<span class="icon_time"></span>
+							<span class="brand-days"><em>6</em><i>天</i></span>
+							<span class="brand-hours"><em>9</em><i>时</i></span>
+							<span class="brand-minutes"><em>34</em><i>分</i></span>
+							<span class="brand-seconds"><em>19</em><i>秒</i></span>
+						</p>
+						<div class="brand_time_bg"></div>
+					</div>
+				</div>
+                                <div class="card">
+					<img class="brand-logo" src="http://gju1.alicdn.com/tps/bao/uploaded/TB1wkuSJVXXXXaKXXXXSutbFXXX.jpg_160x160Q90.jpg">
+					<span class="discount discount1">
+						<span>马上抢</span>
+					</span>                                    
+					<span class="title">Fujifilm/富士</span>
+                                </div>
+                            </a>
+		</div>
+	  </li>
+	  <li>
+		<div class="brand-status">
+			<a href="/brand/dlist/uid/26490139.htm" class="link-box" target="_blank" data-value="brand#1_1">
+				<div class="brand-pic">
+					<img src="http://gju2.alicdn.com/tps/i3/1476406093642117307/TB2J1laa..jyKJjy0FpXXX2wVXa_!!6000000004764-0-jupush.jpg_468x468Q90.jpg">
+					<div class="brand_time" data-etime="1501257599" style="display: block;">
+						<p class="endtime" data-time="1501257599" data-id="b2" id="end_date_b2">
+							<span class="icon_time"></span>
+							<span class="brand-days"><em>6</em><i>天</i></span>
+							<span class="brand-hours"><em>9</em><i>时</i></span>
+							<span class="brand-minutes"><em>34</em><i>分</i></span>
+							<span class="brand-seconds"><em>19</em><i>秒</i></span>
+						</p>
+						<div class="brand_time_bg"></div>
+					</div>
+				</div>
+                                <div class="card">
+					<img class="brand-logo" src="http://gju1.alicdn.com/tps/bao/uploaded/TB18S7RKFXXXXbkXVXXSutbFXXX.jpg_160x160Q90.jpg">
+					<span class="discount discount1">
+						<span>马上抢</span>
+					</span>                                    
+					<span class="title">Midea/美的</span>
+                                </div>
+                            </a>
+		</div>
+	  </li>
+	  <li>
+		<div class="brand-status">
+			<a href="/brand/dlist/uid/26478418.htm" class="link-box" target="_blank" data-value="brand#1_1">
+				<div class="brand-pic">
+					<img src="http://gju4.alicdn.com/tps/i2/1725106093768660779/TB2mAqZaWAPyuJjy1XcXXXdjFXa_!!6000000007251-0-jupush.jpg_468x468Q90.jpg">
+					<div class="brand_time" data-etime="1501257599" style="display: block;">
+						<p class="endtime" data-time="1501257599" data-id="b3" id="end_date_b3">
+							<span class="icon_time"></span>
+							<span class="brand-days"><em>6</em><i>天</i></span>
+							<span class="brand-hours"><em>9</em><i>时</i></span>
+							<span class="brand-minutes"><em>34</em><i>分</i></span>
+							<span class="brand-seconds"><em>19</em><i>秒</i></span>
+						</p>
+						<div class="brand_time_bg"></div>
+					</div>
+				</div>
+                                <div class="card">
+					<img class="brand-logo" src="http://gju4.alicdn.com/tps/bao/uploaded/TB1OBJZJpXXXXcGXpXXSutbFXXX.jpg_160x160Q90.jpg">
+					<span class="discount discount1">
+						<span>马上抢</span>
+					</span>                                    
+					<span class="title">Haier/海尔</span>
+                                </div>
+                            </a>
+		</div>
+	  </li>	
+	 </ul>
+  </div>
+  <script type="text/javascript">
+  	(function(doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function() {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+                    //宽与高度
+                    document.body.style.height = clientWidth * (900 / 1440) + "px"
+                };
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+  </script>>
+</body>
+</html>

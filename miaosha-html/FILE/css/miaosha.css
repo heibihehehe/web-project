@@ -1,0 +1,198 @@
+div {
+    display: block;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #5E5E5E;
+    height: 100%;
+    min-width: 1200px;
+    -webkit-backface-visibility: hidden;
+    background-image: url(http://www.mumujie.com/static/jky/images/global/background_bg.png);
+}
+
+body, button, input, select, textarea {
+    font: 12px/1.5 'Microsoft Yahei',Tahoma,Helvetica,Arial,sans-serif,\5b8b\4f53;
+}
+ul, ol, dl, li {
+    list-style: none;
+}
+html, body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+/*ul, menu, dir {
+    display: block;
+    /*list-style-type: disc;*/
+    /*-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;*
+}*/
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.brand_list {
+    background: #fff;
+    padding: 20px 10px 0;
+    height: auto;
+    overflow: hidden;
+    width: 1180px;
+    border-width: 1px;
+    border-style: solid solid none solid;
+    border-color: #e8e8e8;
+    position: relative;
+}
+.brand_list ul li {
+    width: 370px;
+}
+.brand_list ul li {
+    float: left;
+    display: inline;
+    /*width: 269px;*/
+    margin: 0 10px;
+    border: 1px solid #fff;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+
+
+.brand_list ul li .link-box {
+    height: 199px;
+}
+.brand_list ul li .link-box {
+    background: none repeat scroll 0 0 #fff;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    /*height: 162px;*/
+}
+a {
+    color: #5e5e5e;
+    text-decoration: none;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
+/*.brand_list ul li .brand-pic {
+    height: 149px;
+    width: 373px;
+    overflow: hidden;
+}*/
+.brand_list ul li .brand-pic {
+    display: table-cell;
+    vertical-align: middle;
+    height: 149px;
+    width: 373px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+.brand_list ul li .brand-pic img {
+    width: 370px;
+}
+.brand_list ul li .brand-pic img {
+    display: block;
+    margin: 0 auto;
+   /* width: 269px;*/
+}
+fieldset, img {
+    border: 0;
+}
+.brand-pic .brand_time, .brand-pic .brand_time p, .brand-pic .brand_time .brand_time_bg {
+    width: 373px;
+}
+.brand-pic .brand_time {
+   /* width: 285px;*/
+    height: 25px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    /*line-height: 25px;*/
+}
+.brand-pic .brand_time p {
+    text-align: center;
+    line-height: 25px;
+    /*width: 285px;*/
+    color: #fff;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+p {
+    display: block;
+    /*-webkit-margin-before: 1em;*/
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.brand-pic .brand_time span.icon_time {
+    display: inline-block;
+    background: url(../images/brank.png) no-repeat -48px 0;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+.brand-pic .brand_time span.item-time {
+    text-align: center;
+    line-height: 25px;
+}
+address, cite, dfn, em, var, i {
+    font-style: normal;
+}
+/*i, cite, em, var, address, dfn {
+    font-style: italic;
+}*/
+
+.brand-pic .brand_time .brand_time_bg {
+    height: 25px;
+    width: 100%;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.brand_list ul li .card {
+    height: 50px;
+    line-height: 20px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.brand_list ul li .card .brand-logo {
+    float: left;
+    height: 30px;
+    margin: 10px 0 0 10px;
+    width: 60px;
+}
+ .brand_list ul li .card .discount {
+    width: 62px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #ff2d5e;
+    float: right;
+    font-size: 14px;
+    margin: 10px 10px 0 0;
+}
+ .brand_list ul li .card .title {
+    float: left;
+    font-family: ΢���ź�;
+    color: rgb(51, 51, 51);
+    margin: 15px 0px 0px 10px;
+}

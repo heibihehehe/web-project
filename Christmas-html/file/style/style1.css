@@ -1,0 +1,172 @@
+/*common设置*/
+.container,.window,.wood{
+	overflow:hidden
+}
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,
+caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,
+figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,
+img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,
+section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,
+time,tr,tt,u,ul,var,video{
+	margin:0;
+	padding:0;
+	border:0;
+	font:inherit;
+	vertical-align:baseline
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+	display:block
+}
+
+body{
+	line-height:1
+}
+
+ol,ul{
+	list-style:none
+	}
+
+blockquote,q{
+	quotes:none
+}
+
+blockquote:after,blockquote:before,q:after,q:before{
+	content:'';content:none
+}
+
+table{
+	border-collapse:collapse;
+	border-spacing:0
+}
+
+.container{
+	width:100%;
+	height:100%;
+	position:relative
+}
+
+.bg-adaptive{
+	background-size:100% 100%
+}
+
+/*云和月亮*/
+.cloudy,.moon{
+	border-radius:50%
+}
+/*页面A的背景*/
+.container .page-a{
+	width:100%;
+	height:100%;
+	background-image:url('../images/a/page-a-bg.png');
+	position:absolute;z-index:5
+}
+/*树*/
+.page-a svg,.tree{
+	z-index:15;
+	position:absolute
+}
+
+.tree{
+	width:2.71rem;
+	height:4.24rem;
+	bottom:0;
+	left:1rem;
+	background-image:url(../images/a/trees.png);
+	background-size:200% 100%;
+	-webkit-animation:treeAnim 1s steps(2) infinite;
+	-moz-animation:treeAnim 1s steps(2) infinite
+}
+
+@-webkit-keyframes treeAnim{
+	0%{background-position:200% 100%}
+	100%{background-position:400% 100%}
+}
+
+@-moz-keyframes treeAnim{
+	0%{background-position:200% 100%}
+	100%{background-position:400% 100%}
+}
+/*月亮*/
+.moon{
+	background:#FCF0BC;
+	width:2rem;
+	height:2rem;
+	box-shadow:0 0 1.5rem #FCF0BC;
+	position:absolute;
+	left:3.3rem;
+	top:.8rem;
+	-webkit-animation:nucleus 2s infinite linear;
+	-moz-animation:nucleus 2s infinite linear
+}
+/**
+ * 光晕效果
+ */
+
+@-webkit-keyframes nucleus{
+	0%,100%{box-shadow:0 0 0 transparent}
+	50%{box-shadow:0 0 1rem #FCF0BC}
+}
+
+@-moz-keyframes nucleus{
+	0%,100%{box-shadow:0 0 0 transparent}
+	50%{box-shadow:0 0 1rem #FCF0BC}
+}
+/*云*/
+.cloudy{
+	background:#60768D;
+	border-style:none;
+	box-shadow:#60768D 1.2rem -.2rem 0 -.1rem,
+	#60768D .5rem -.5rem,
+	#60768D .8rem .2rem,
+	#60768D 1.5rem .2rem 0 -.2rem;
+	height:1rem;
+	width:1rem;
+	position:absolute;
+	left:.5rem;
+	top:1.8rem;
+	z-index:5;
+	-webkit-animation:cloudy 5s ease-in-out infinite;
+	-moz-animation:cloudy 5s ease-in-out infinite
+}
+
+@-webkit-keyframes cloudy{
+	50%{-webkit-transform:translateY(-.1rem)}
+}
+
+@-moz-keyframes cloudy{
+	50%{-moz-transform:translateY(-.1rem)}
+}
+/**
+ * 圣诞男孩
+ */
+
+.chs-boy{
+	width:5rem;
+	height:1.5rem;
+	position:absolute;
+	z-index:3;
+	top:.1rem;
+	right:-3rem;
+	transform:scale(.1);
+	background:url(../images/a/boy-sleigh-car.png) -300% -100%;
+	background-size:400% 100%
+}
+/**
+ * 男孩走路动作
+ */
+.chs-boy-deer{
+	-webkit-animation:chsBoyDeer .75s steps(3,end) infinite;
+	-moz-animation:chsBoyDeer .75s steps(3,end) infinite
+}
+
+@-webkit-keyframes chsBoyDeer{
+	0%{background-position:0 100%}
+	100%{background-position:-300% 100%}
+}
+
+@-moz-keyframes chsBoyDeer{
+	0%{background-position:0 100%}
+	100%{background-position:-300% 100%}
+}
